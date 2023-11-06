@@ -20,6 +20,9 @@
 /* JOUW STYLING */
 /****************/
 /* jouw code */
+
+
+/* Algemeen */
 body {
   margin: 0;
   padding: 0;
@@ -61,80 +64,8 @@ h4 {
   font-weight: lighter;
 }
 
-/* nav {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 20;
-}
 
-nav img {
-  height: 35px;
-  width: auto;
-  margin-left: 10px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  padding: 0;
-  margin: 0;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.sprite-icon {
-  fill: #0000;
-  padding: 5px;
-  width: 35px;
-  height: 35px;
-  margin: 0;
-}
-
-.icon-myAccount {
-  stroke-width: 2px;
-  stroke: #000;
-}
-
-.icon-magnifyingglass {
-  fill: black;
-}
-
-.primary-menu {
-  display: flex;
-  width: 100vw;
-  height: 50px;
-  background-color: white;
-  align-items: center;
-  justify-content: space-between;
-  top: 0;
-}
-
-.secondary-menu {
-  display: grid;
-  height: 50px;
-  width: 100vw;
-  background-color: white;
-  grid-template-columns: repeat(5, 1fr);
-  list-style: none;
-  padding: 0;
-  margin-top: 1;
-}
-
-.secondary-menu li {
-  text-align: center;
-}
-
-.secondary-menu a {
-  text-decoration: none;
-  color:#808080;
-}
-
-.secondary-menu a:hover {
-  color: black;
-} */
-
+/* nav */
 nav {
   position: sticky;
   position: -webkit-sticky;
@@ -238,6 +169,8 @@ header {
 
 
 
+
+/* footer */
 footer {
   display: flex;
   flex-direction: column;
@@ -310,9 +243,12 @@ footer p {
 #aboutContent {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease; /* Add transition for smooth animation */
+  transition: max-height 0.3s ease;
 }
 
+
+
+/* carousel */
 .slideshowContainer {
   width: 100vw;
   height: 100vh;
@@ -413,6 +349,8 @@ footer p {
   border-radius: 3px 0 0 3px;
 }
 
+
+
 /* //shopping page// */
 
 .banner {
@@ -455,6 +393,8 @@ footer p {
   color: black;
 }
 
+
+/* Shop by category */
 .featured {
   background-color: white;
   display: flex;
@@ -494,6 +434,8 @@ footer p {
   margin: 1em;
 }
 
+
+/* recommended for you */
 .recommended-list {
   display: flex;
   background-color: white;
@@ -524,7 +466,11 @@ footer p {
   max-width: 100%;
 }
 
+
+/* Shopping made easy */
 .easy {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   padding: 1em;
 }
@@ -533,6 +479,14 @@ footer p {
   text-align: center;
   font-size: 24px;
   font-weight: lighter;
+}
+
+.easy a {
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 1em;
+  align-self: center;
+  color: black;
 }
 
 .card-container {
@@ -560,6 +514,8 @@ footer p {
   background-color: white;
 }
 
+
+/* media queries */
 @media (min-width: 700px) {
   .sprite-icon {
     fill: #0000;
@@ -638,7 +594,29 @@ footer p {
     display: flex;
     gap: 3em;
   }
-
+  .just-arrived {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split the section into two columns */
+    height: auto;
+  }
+  
+  .just-arrived img {
+    width: 100%; /* Make the image take up the full width of its container */
+    max-height: 100vh; /* Make sure the image doesn't exceed the container's height */
+  }
+  
+  .just-arrived div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .just-arrived h2,
+  .just-arrived p,
+  .just-arrived a {
+    margin: 10px 0; /* Add some spacing around the elements */
+  }
+  
   
 }
 @media (min-width: 1500px) {

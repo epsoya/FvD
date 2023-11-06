@@ -37,12 +37,14 @@ https://www.uniqlo.com/eu/en/home
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-Home pagina  
+Home pagina 
+ 
  <img src="readme-images/home.jpg" width="375px" alt="landingspagina van Uniqlo">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 shopping pagina
+
  <img src="readme-images/shoppingmen.jpg" width="375px" alt="shopping pagina van Uniqlo">
 
 </details>
@@ -213,6 +215,13 @@ ik ben van start gegaan met de 2e pagina, ik wou mezelf uitdagen door niet allee
 
 Hier ben ik bezig geweest met de footer. hier heb ik met gebruik van javascript proberen om een dropdown menu te maken waarbij je de content kon zien wanneer je er overheen zou hoveren met je muis. dit zou mijn micro interactie zijn omdat dit gebruikers helpt om de content te zien voordat je daadwerkelijk de content wilt openen. dit vond ik alleen heel moeilijk en heb ik bepaalde dingen geprobeerd. zo heb ik bijvoorbeeld een toggle kunnen maken zonder hover, of een hover maar dan geen toggle
 
+ook ben ik gaan werken aan  het responsive maken van mijn website door middel van media queries
+
+<img src="readme-images/easysmall.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/easybig.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/categories.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/categoriesbig.png" width="375px" alt="uitomst opdracht 1">
+
 ### Experimenten voor de dropdown en micro interactie
 
 Hier is een voorbeeld van de code waar de dropdown alleen werkt met de toggle maar niet met de hover
@@ -253,7 +262,9 @@ Hier is een voorbeeld van de code waar de dropdown alleen werkt met de toggle ma
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/nav.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/shop.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/home.jpg" width="375px" alt="uitomst opdracht 1">
 
 ### Dit ging goed/Heb ik geleerd:
 
